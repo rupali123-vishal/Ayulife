@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.hero-panel{
+    text-align: center;
+    background-color:rgb(231, 245, 176); ;
+ }
+ 
+
+ .hero-section{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:space-evenly;
+    align-items: center;
+ }
+
+ .products{
+    height: 420px;
+    width: 340px;
+    margin-top: 46px;
+    background-color: white;
+    /* padding: 20px 0px 15px; */
+    
+}
+
+.con-product{
+ background-color:rgb(231, 245, 176) ;
+    height: 75rem;
+}
+
+ .pro-img{
+    height: 250px;
+    width: 340px;
+    background-size:cover;
+ }
+ .buttons{
+ border: 0;
+      margin-top: 1rem;
+      line-height: 2.5;
+      padding: 0 20px;
+      font-size: 1rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+      border-radius: 10px;
+      background-color: rgba(220, 0, 0, 1);
+      background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0)
+      );
+      box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    }
+    
+    .buttons:hover {
+      background-color: rgba(255, 0, 0, 1);
+    }
+    
+    .buttons:active {
+      box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+    
+  
